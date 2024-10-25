@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue">#FFADD8E6</color> <!-- Color celeste -->
+    <color name="edittext_background">#293038</color> <!-- Color del EditText -->
+    <color name="background_color">#121417</color> <!-- Color del fondo -->
+    <color name="background_color2">#242E35</color> <!-- Color del fondo -->
+    <color name="button_color">#2194f2</color> <!-- Color del botón -->
+    <color name="text_color">#ffffff</color> <!-- Color de las letras -->
+    <color name="textColorHint">#67727e</color> <!-- Color de las letras -->
+    <color name="hub">#1c2126</color> <!-- Color de las letras -->
+</resources>

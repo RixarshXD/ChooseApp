@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "924353107088",
+    "project_id": "app-choose-d306e",
+    "storage_bucket": "app-choose-d306e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924353107088:android:1f2f8df915c577f23e7415",
+        "android_client_info": {
+          "package_name": "com.example.chooseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApTAcaWArAHKGK607seEbGfRqm9Ct0aio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

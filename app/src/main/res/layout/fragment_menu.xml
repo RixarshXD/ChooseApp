@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".Menu">
+
+    <!-- Título del menú -->
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="24sp"
+        android:textColor="@color/text_color"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:textStyle="bold" />
+
+    <!-- Opciones del menú -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Opción de Inicio -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/menu_inicio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Inicio"
+                android:textSize="18sp"
+                android:textColor="@color/text_color" />
+
+            <ImageView
+                android:id="@+id/icon_inicio"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="Icono de Inicio"
+                android:src="@drawable/home" />
+        </LinearLayout>
+
+        <!-- Opción de Mi Perfil -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/menu_perfil"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mi Perfil"
+                android:textSize="18sp"
+                android:textColor="@color/text_color" />
+
+            <ImageView
+                android:id="@+id/icon_perfil"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="Icono de Mi Perfil"
+                android:src="@drawable/person" />
+        </LinearLayout>
+
+        <!-- Opción de Puesto -->
+
+        <!-- Opción de Organizaciones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/menu_organizaciones"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Organizaciones"
+                android:textSize="18sp"
+                android:textColor="@color/text_color" />
+
+            <ImageView
+                android:id="@+id/icon_organizaciones"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="Icono de Organizaciones"
+                android:src="@drawable/history" />
+        </LinearLayout>
+
+        <!-- Opción de Insignias -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/menu_insignias"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Insignias"
+                android:textSize="18sp"
+                android:textColor="@color/text_color" />
+
+            <ImageView
+                android:id="@+id/icon_insignias"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="Icono de Insignias"
+                android:src="@drawable/search" />
+        </LinearLayout>
+
+        <!-- Opción de Configuraciones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Botón de Cerrar sesión -->
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/textColorHint"
+        android:drawablePadding="10dp"
+        android:padding="12dp"
+        android:layout_marginTop="30dp"
+        android:text="Cerrar sesión"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

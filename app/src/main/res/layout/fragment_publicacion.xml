@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".Publicacion">
+
+    <!-- Título de la publicación -->
+    <EditText
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hub"
+        android:id="@+id/et_titulo_publicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título de la publicación"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <!-- Selector de imagen -->
+    <Button
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/text_color"
+        android:id="@+id/btn_select_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Imagen"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Fecha de publicación -->
+    <EditText
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hub"
+        android:id="@+id/et_fecha_publicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de publicación"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:inputType="date" />
+
+    <!-- Descripción de la publicación -->
+    <EditText
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hub"
+        android:id="@+id/et_descripcion_publicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción de la publicación"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top|start" />
+
+    <!-- Botón para enviar el formulario -->
+    <Button
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/text_color"
+        android:id="@+id/btn_enviar_publicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Publicación" />
+
+</LinearLayout>

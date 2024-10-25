@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgFotoPerfil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@mipmap/usuario"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Usuario"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/apellidoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido del Usuario"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo Electrónico:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/emailUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@ejemplo.com"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/telefonoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de Teléfono"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewSobreTi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre Ti:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:id="@+id/sobreTiUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breve descripción sobre el usuario"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:layout_marginBottom="12dp"/>
+</LinearLayout>

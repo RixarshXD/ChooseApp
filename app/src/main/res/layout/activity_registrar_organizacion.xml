@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".RegistrarOrganizacion">
+        <LinearLayout
+            android:id="@+id/Principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crear Perfil"
+                android:textSize="24sp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- ImageView para mostrar la foto seleccionada -->
+            <ImageView
+                android:id="@+id/imgFotoPerfil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/usuario"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+
+            <!-- Botón para seleccionar la foto -->
+            <Button
+                android:id="@+id/btnSeleccionarFoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seleccionar Foto"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/text_color"
+                android:backgroundTint="@color/button_color" />
+
+            <!-- Layout horizontal para Nombre y Apellido -->
+            <LinearLayout
+                android:textColor="@color/text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/etNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_border"
+                    android:hint="Nombre Organizacion"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/textColorHint" />
+
+            </LinearLayout>
+
+            <EditText
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/textColorHint"
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edittext_border"
+                android:padding="12dp" />
+
+            <EditText
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/textColorHint"
+                android:id="@+id/etContrasenia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_border"
+                android:padding="12dp" />
+
+            <EditText
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/textColorHint"
+                android:id="@+id/etNumeroTelefonico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Número Teléfono"
+                android:inputType="phone"
+                android:background="@drawable/edittext_border"
+                android:padding="12dp" />
+
+            <TextView
+                android:textColor="@color/text_color"
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cuéntanos sobre ti"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:textColorHint="@color/textColorHint"
+                android:textColor="@color/text_color"
+                android:id="@+id/etCuentanosSobreTi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="Cuéntanos sobre tu organizacion"
+                android:background="@drawable/edittext_border"
+                android:padding="12dp" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/button2"
+                android:textColor="@color/text_color"
+                android:backgroundTint="@color/button_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar Usuario"
+                android:onClick="registrarCuenta" />
+        </LinearLayout>
+
+</LinearLayout>
